@@ -1,0 +1,7 @@
+.footer {
+  @apply bg-primary text-white p-3 text-center;
+}
+
+.medsoc {
+  @apply transition ease-in-out hover:-translate-y-1 delay-100 hover:scale-110 drop-shadow-lg text-2xl;
+}
