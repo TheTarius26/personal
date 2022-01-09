@@ -13,7 +13,7 @@ export default function Layout({title, children} : Props) {
   return (
     <>
     <Header title={title} />
-    <body className="min-h-screen">
+    <body>
       <Navbar />
       {children}
     </body>
